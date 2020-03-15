@@ -1,3 +1,4 @@
+
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
@@ -12,7 +13,8 @@ iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+u, i, center, dl, dt, dd,
+ ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
@@ -110,7 +112,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: #49bf9d;
 		text-decoration: none;
 	}
@@ -161,7 +163,7 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	h4 {
+	{
 		font-size: 1.1em;
 		line-height: 1.5em;
 	}
@@ -2237,6 +2239,47 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 1em;
+			}
+
+			ul.labeled-icons li h4 {
+				color: #b2b2b2;
+				left: 0;
+				position: absolute;
+				text-align: center;
+				top: 0;
+				width: 1em;
+			}
+
+
+/* Header Icons */
+
+	ul.header-icons {
+		list-style: none;
+		padding: 0;
+	}
+
+		ul.header-icons li {
+			line-height: 1.75em;
+			margin: 1.5em 0 0 0;
+			padding-left: 2.25em;
+			position: relative;
+		}
+
+			ul.header-icons li:first-child {
+				margin-top: 0;
+			}
+
+			ul.header-icons li a {
+				color: inherit;
+			}
+
+			ul.header-icons li h3 {
+				color: #b2b2b2;
+				left: 0;
+				position: absolute;
+				text-align: center;
+				top: 0;
+				width: 0em;
 			}
 
 /* Actions */
